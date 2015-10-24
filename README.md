@@ -1,7 +1,7 @@
 # chappie-brain
-Chappie Brain / Consciousness recreated in JavaScript.
+Chappie Brain / Consciousness recreated in JavaScript : React, Angular and Canvas implementations (so far).
 
-#### 3 implementation branches:
+#### Available branches:
 
 1. React (brain-react)
 2. Angular (brain-angular)
