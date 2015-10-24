@@ -14,8 +14,9 @@
 $base-color: #010F18;
 
 body {
-    font-family: 'Exo', sans-serif;
     background: $base-color;
+    font-family: 'Exo', sans-serif;
+    overflow: hidden;
 }
 
 ul { font-size: 0; }
@@ -42,10 +43,6 @@ ul { font-size: 0; }
 // Brain
 .Braincell {
     display: inline-block;
-
-    // width: 30px;
-    // height: 30px;
-    // background: #f00;
 
     // color: $base-color;
     font-size: 14px;
