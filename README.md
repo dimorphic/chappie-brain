@@ -44,4 +44,5 @@ I'm looking forward to contributions with 'speed hacks' if any or even other 'fl
 
 ### Credits:
 
-@TODO
+* @Chappie creators: Thanks for the awesome movie!
+* @James Whayman: Thanks for the color ranges! Sharing is caring <3
