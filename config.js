@@ -20,12 +20,12 @@ CONFIG.deps = {
 
 	js: [
 		'src/vendor/requirejs/require.js',
-
         'src/vendor/jquery/dist/jquery.js',
-		'src/vendor/angular/angular.js', // YEA BABY!
+
 		'src/vendor/noisejs/index.js',
 
-		'src/vendor/stats.js/build/stats.min.js'
+		'src/vendor/stats.js/build/stats.min.js',
+		'src/vendor/annyang/annyang.js'
 	]
 };
 
