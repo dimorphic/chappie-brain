@@ -1,0 +1,63 @@
+# Compiled #
+############
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs / DBs #
+##############
+*.log
+*.sql
+*.sqlite
+
+# OS related #
+##############
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE configs #
+###############
+.idea/
+
+# Generated files #
+###################
+.tmp
+.sass-cache
+dist
+
+# Dependencies #
+################
+bower_components/
+node_modules/
+
+# Don't ignore these #
+######################
+!.gitkeep
+
+# Project custom #
+##################
+src/vendor/
+src/app/js/vendor/
+src/app/scss/vendor/
