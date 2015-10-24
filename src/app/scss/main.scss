@@ -14,8 +14,9 @@
 $base-color: #010F18;
 
 body {
-    font-family: 'Exo', sans-serif;
     background: $base-color;
+    font-family: 'Exo', sans-serif;
+    overflow: hidden;
 }
 
 ul { font-size: 0; }
