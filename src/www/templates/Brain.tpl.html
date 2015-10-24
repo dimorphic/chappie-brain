@@ -1,0 +1,12 @@
+<div class="debug">
+	cells: {{brain.memory.cells.length}}
+	<br />
+	draw #{{brain.redrawCounter}}
+</div>
+
+<ul>
+	<Braincell
+		ng-repeat="cell in brain.memory.cells track by cell.id"
+		cell="cell">
+	</Braincell>
+</ul>

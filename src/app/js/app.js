@@ -2,14 +2,17 @@ define(function(require){
 	'use strict';
 
 	// deps
-	var $ = require('jquery');
-	var React = require('react');
+	var angular = require('angular');
 
 	// components
-	var Brain = require('components/Brain');
+	var COMPONENTS = [
+		require('services/raf'),
 
-	// DOM ready
-	$(function() {
-		React.render(<Brain />, document.getElementById('app'));
-	});
+		require('components/Brain'),
+		require('components/Braincell')
+	];
+
+	// define app main module
+	var app = angular.module('app', COMPONENTS);
+	app.controller('AppController', require('controllers/AppController'));
 });

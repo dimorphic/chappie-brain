@@ -4,17 +4,21 @@ require.config({
     // alias libraries paths.  Must set 'angular'
     paths: {
 		'jquery': 'vendor/jquery',
+        'angular': 'vendor/angular',
 
-        // 'angular': '//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min'
-        'react': 'vendor/react',
         'noise': 'vendor/index',
+        'statsjs': 'vendor/stats.min',
 
-        'statsjs': 'vendor/stats.min'
+        'app': 'app'
     },
 
     // Add angular modules that does not support AMD out of the box, put it in a shim
-    shim: { },
+    shim: {
+        angular: {
+            exports: 'angular'
+        }
+    },
 
     // kick start application
-    deps: ['app']
+    deps: ['boot']
 });
