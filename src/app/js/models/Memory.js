@@ -31,16 +31,15 @@ define(function(require){
 		this.updateMode = opts.updateMode || 0;
 
 		// _init
-		this.boot();
+		this.boot(opts);
 	};
 
 	//
 	//	Memory.boot()
 	//	kick start memory conciousness
 	//
-	Memory.prototype.boot = function() {
-		console.log('[memory.boot] booting...');
-		console.log(' ');
+	Memory.prototype.boot = function(opts) {
+		// console.log('[Memory] booting...', opts);
 
 		// create full memory
 		this.build();
@@ -111,7 +110,7 @@ define(function(require){
 		// grab screen max details
 		var screen = this.getMaxScreenCells(this.cellSize);
 
-		console.log('screen grid: ', screen);
+		// console.log('screen grid: ', screen);
 
 		// update memory grid config
 		this.grid.maxCells = screen.maxCells;
@@ -181,8 +180,8 @@ define(function(require){
 		// snapshot value
 		var val = noise;
 
-		var hue, saturation,
-			lightness, textLightness;
+		var hue, saturation, lightness,
+			textLightness;
 
 		// random factor
 		var randomness = ~~(Math.random() * 25);
@@ -248,8 +247,6 @@ define(function(require){
 	Memory.prototype.updateMultiCells = function() {
 		var maxCells = parseInt(this.cells.length / 5, 10);
 		var cellsToUpdate = ~~(Math.random() * maxCells) + 1;
-
-		// console.log('!! updating multiple memories ', maxCells, cellsToUpdate);
 
 		for (var i = 0; i <= cellsToUpdate; i++) {
 			this.updateSingleCell();

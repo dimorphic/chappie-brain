@@ -37,16 +37,50 @@ define(function(require){
 	// get random char helper
 	//
 	var _getRandomChar = function() {
-		var chars = '<>!"%^&,.?()_=';
-		var randomAction = chars[Math.floor(Math.random() * chars.length)];
+		var chars = '!#%&^()_=+,.:<>?'; // @ and $ are ugly with Exo. need better font?
+		var randomChar = chars[~~(Math.random() * chars.length)];
 
-		return randomAction;
+		return randomChar;
 	};
 
+	//
+	//	Add leading zeroes (0) to string
+	//
+	var zeroPad = function(n, w) {
+		while (n.toString().length < w) {
+			n = '0' + n;
+		}
+		return n;
+	};
 
-	// expose
+	//
+	//	Basic encode of strings into numbers
+	//
+	var toNumbers = function(str) {
+		var nums = '';
+		for (var i = 0; i < str.length; i++) {
+			nums += str.charCodeAt(i);
+		}
+		return nums;
+	};
+
+	//
+	//	Basic decode of numbers into strings
+	//
+	var fromNumbers = function(nums) {
+		var str = '';
+		for (var i = 0; i < nums.length; i += 3){
+			str += String.fromCharCode(nums.substring(i, i + 3));
+		}
+		return str;
+	};
+
+	// expose goodness
 	return {
 		getRandomColor: _getRandomColor,
-		getRandomChar: _getRandomChar
+		getRandomChar: _getRandomChar,
+		toNumbers: toNumbers,
+		fromNumbers: fromNumbers,
+		zeroPad: zeroPad
 	};
 });

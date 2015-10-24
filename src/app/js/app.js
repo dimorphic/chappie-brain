@@ -2,17 +2,38 @@ define(function(require){
 	'use strict';
 
 	// deps
-	var angular = require('angular');
+	var $ = require('jquery');
 
 	// components
-	var COMPONENTS = [
-		require('services/raf'),
+	var Brain = require('components/Brain');
+	var Ear = require('components/Ear');
 
-		require('components/Brain'),
-		require('components/Braincell')
-	];
+	// pointers
+	var BRAIN, EAR;
 
-	// define app main module
-	var app = angular.module('app', COMPONENTS);
-	app.controller('AppController', require('controllers/AppController'));
+	//
+	// VOICE COMMANDS
+	//
+	var COMMANDS = {
+		'hello *term': function(term) {
+			// interpret user term / query
+			BRAIN.interpret(term);
+		}
+	};
+
+	//
+	// DOM ready
+	//
+	$(function() {
+		// initialize Brain
+		BRAIN = new Brain('#app');
+		EAR = new Ear(COMMANDS, { autoRestart: false });  // should be true
+
+		// restart listening for voice inputs (mic tends to fail sometimes on local)
+		// note: need HTTPS to stop the browser for asking mic permissions
+		$('#start-voice').on('click', function() {
+			BRAIN.animation.alive = 0;
+			EAR.listen();
+		});
+	});
 });

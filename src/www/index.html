@@ -19,10 +19,13 @@
         <![endif]-->
     </head>
 
-    <body ng-controller="AppController as app">
-		<div id="app" style="color: #fff;">
-            <Brain></Brain>
+    <body>
+
+        <div class="debug">
+            <button id="start-voice">start voice</button>
         </div>
+
+		<canvas id="app"></canvas>
 
         <!-- APP DEPS -->
 		<script src="/js/vendor/require.js" data-main="/js/main.js"></script>
