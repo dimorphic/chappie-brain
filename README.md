@@ -33,8 +33,8 @@ This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React
 
 ### Todo:
 
-- [ ] add $timeout to Angular flavor demo update to speed it up a bit?
-- [ ] fix random weird bug in Angular flavor demo causing Braincells not to get size/color
+- [ ] [angular] add $timeout to update helper to speed it up a bit?
+- [ ] [angular] fix random bug causing all cells not to get size/color sometimes at page load
 - [ ] test more libs/frameworks?
 - [ ] TBA
 
