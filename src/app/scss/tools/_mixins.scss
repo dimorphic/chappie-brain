@@ -1,0 +1,15 @@
+/* -- Mixins - used globally -- */
+
+@import "mixins/fonts";
+@import "mixins/helpers";
+@import "mixins/responsive_mixins";
+@import "mixins/utilities";
+
+// input placeholder color
+// https://github.com/michaelsacca/Compass-Placeholder-Text-Mixin
+@mixin input-placeholder {
+	&:-moz-placeholder { @content; }
+	&::-moz-placeholder { @content; }
+	&:-ms-input-placeholder { @content; }
+	&::-webkit-input-placeholder { @content; }
+}

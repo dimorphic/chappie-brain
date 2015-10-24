@@ -1,0 +1,57 @@
+// ------------------------------------ //
+// 	APP MAIN
+// ------------------------------------ //
+
+// DEPS
+@import "lib/reset";
+@import "tools/mixins";
+@import "utils/clearfix";
+@import "utils/global";
+
+//
+// MAGIC
+//
+$base-color: #010F18;
+
+body {
+    font-family: 'Exo', sans-serif;
+    background: $base-color;
+}
+
+ul { font-size: 0; }
+
+// debugger
+.debug {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: 10px;
+
+    background: rgba(255, 0, 0, 0.6);
+    color: #fff;
+}
+
+// app wrapper
+#app {
+    @include positionCenter;
+    overflow: hidden;
+}
+
+// Brain
+.Braincell {
+    display: inline-block;
+
+    // color: $base-color;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 2;
+
+    text-align: center;
+    overflow: hidden;
+
+    // backface-visibility: hidden;
+    // transform: translate3d(0,0,0);
+    // transition: all 0.3s ease;
+}
