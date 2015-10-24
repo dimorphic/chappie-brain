@@ -15,10 +15,8 @@ define(function(require){
 	// VOICE COMMANDS
 	//
 	var COMMANDS = {
-		'hello *term': function(term) {
-			// interpret user term / query
-			BRAIN.interpret(term);
-		}
+		'hello *term': function(term) { BRAIN.interpret(term); },
+		'show me *term': function(term) { BRAIN.interpret(term); }
 	};
 
 	//
