@@ -15,7 +15,7 @@ This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React
 
 ### Getting started
 
-1. Clone the repo of desired flavor (react, angular or canvas):
+1. Clone the repo of desired flavor (brain-react, brain-angular or brain-canvas):
   
   `$ git clone -b brain-FLAVOR https://github.com/dimorphic/chappie-brain`
 
@@ -34,7 +34,8 @@ This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React
 ### Todo:
 
 - [ ] add $timeout to Angular flavor demo update to speed it up a bit?
-- [ ] create other flavors and test more libs/frameworks?
+- [ ] test more libs/frameworks?
+- [ ] TBA
 
 ### Credits:
 
