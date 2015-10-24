@@ -3,7 +3,7 @@
 	// http://eslint.org/docs/configuring/
 	"env": {
 		"browser": true,
-		"es6": false,
+		"es6": true,
 		"node": false,
 		"amd": true
 	},
