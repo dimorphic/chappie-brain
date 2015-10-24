@@ -11,7 +11,7 @@ Chappie Brain / Consciousness animation recreated in JavaScript, available in 3 
 
 ![brain-preview-demo](http://i.imgur.com/U0zdZkh.jpg)
 
-This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React](http://bit.ly/angular-vs-react).
+This was used as reference for the 'insane' test case @ [Angular-vs-React](http://bit.ly/angular-vs-react).
 
 ### Getting started
 
