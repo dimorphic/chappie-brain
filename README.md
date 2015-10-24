@@ -40,7 +40,7 @@ This test is focused on a specific case, update items, and it's scores should be
 ### Contribution:
 
 I've tried to keep things simple and make'em as fast as possible with each method/framework used.
-I'm looking forward to contributions with 'speed hacks' if any or even other 'flavor' branches and tests. Go nuts, go hacking! :)
+I'm looking forward to contributions with 'speed hacks' if any or even other 'flavor' branches and tests. Go fork, go hacking! :)
 
 ### Credits:
 
