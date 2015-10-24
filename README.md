@@ -34,6 +34,7 @@ This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React
 ### Todo:
 
 - [ ] add $timeout to Angular flavor demo update to speed it up a bit?
+- [ ] fix random weird bug in Angular flavor demo causing Braincells not to get size/color
 - [ ] test more libs/frameworks?
 - [ ] TBA
 
