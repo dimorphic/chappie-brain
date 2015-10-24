@@ -1,0 +1,37 @@
+{
+  "name": "Chappie Brain",
+  "version": "0.1",
+  "description": "Chappie Brain / Consciousness remake in React / Angular / Canvas",
+  "homepage": "https://github.com/dimorphic/chappie-brain",
+  "author": "Sabin Tudor <nyx@dimorphic.net>",
+  "license": "GNU GPL V3",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "amd",
+    "node"
+  ],
+  "keywords": [
+    "chappie",
+    "brain",
+    "consciousness",
+    "memory",
+    "react",
+    "angular",
+    "canvas"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "noisejs": "*",
+    "react": "~0.13.3",
+    "requirejs": "~2.1.18",
+    "stats.js": "*"
+  }
+}
