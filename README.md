@@ -33,4 +33,9 @@ This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React
 
 ### Todo:
 
+- [ ] add $timeout to Angular flavor demo update to speed it up a bit?
+- [ ] create other flavors and test more libs/frameworks?
+
 ### Credits:
+
+@TODO
