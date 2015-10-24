@@ -1,5 +1,5 @@
-# chappie-brain
-Chappie Brain / Consciousness recreated in JavaScript, available in 3 flavors: React, Angular and Canvas.
+# Chappie Brain
+Chappie Brain / Consciousness animation recreated in JavaScript, available in 3 flavors: React, Angular and Canvas.
 
 #### Available branches (so far!):
 
@@ -11,7 +11,7 @@ Chappie Brain / Consciousness recreated in JavaScript, available in 3 flavors: R
 
 ![brain-preview-demo](http://i.imgur.com/U0zdZkh.jpg)
 
-This was used as reference in a test case @ [Angular-vs-React](http://bit.ly/angular-vs-react).
+This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React](http://bit.ly/angular-vs-react).
 
 ### Getting started
 
