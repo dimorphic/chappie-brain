@@ -1,5 +1,5 @@
 # Chappie Brain
-Chappie Brain / Consciousness animation recreated in JavaScript, available in 3 flavors: React, Angular and Canvas.
+[Chappie](http://www.imdb.com/title/tt1823672) inspired Brain / Consciousness animation recreated in JavaScript, available in 3 flavors: React, Angular and Canvas.
 
 #### Available branches (so far!):
 
