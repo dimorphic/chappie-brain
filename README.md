@@ -26,3 +26,4 @@ Chappie Brain / Consciousness animation recreated in JavaScript, available in 3 
 ### Todo:
 
 - [ ] add $timeout to Angular flavor demo update to speed it up a bit?
+- [ ] fix random weird bug causing Braincells not to get size/color
