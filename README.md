@@ -9,9 +9,9 @@ This was used as reference in a test case @ [Angular-vs-React](http://bit.ly/ang
 
 #### Available branches (so far!):
 
-1. React (brain-react). Demo @ [link]
-2. Angular (brain-angular). Demo @ [link]
-3. Canvas (brain-canvas). Demo @ [link]
+1. React (brain-react). Demo @ [here](https://dimorphic.github.io/chappie-brain/react/)
+2. Angular (brain-angular). Demo @ [here](https://dimorphic.github.io/chappie-brain/angular/)
+3. Canvas (brain-canvas). Demo @ [here](https://dimorphic.github.io/chappie-brain/canvas/)
 
 ### Getting started
 
