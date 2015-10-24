@@ -33,8 +33,6 @@ This was used as reference in a benchmark 'insane' test case @ [Angular-vs-React
 
 ### Todo:
 
-- [ ] [angular] add $timeout to update helper to speed it up a bit?
-- [ ] [angular] fix random bug causing all cells not to get size/color sometimes at page load
 - [ ] test more libs/frameworks?
 - [ ] TBA
 
