@@ -12,7 +12,7 @@
 ![brain-preview-demo](http://i.imgur.com/U0zdZkh.jpg)
 
 This was used as reference for my 'insane' test case presentation @ [Angular-vs-React](http://bit.ly/angular-vs-react).
-This test is focused on a specific case, update items, and it's scores should be taken as is, and not as an overall score of one framework vs another.
+This test is focused on a specific case, update items that is, and it's scores should be taken as is, and not as an overall score of one framework vs another. There are other libs out there that handle animations better. Do not do this at home! :)
 
 ### Getting started
 
