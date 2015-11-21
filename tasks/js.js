@@ -27,7 +27,11 @@ gulp.task('js:transform', function() {
 	// stream SCSS
 	var stream = gulp.src(input)
 	.pipe(babel({
-		ignore: [CONFIG.paths.js.vendor]
+		ignore: [CONFIG.paths.js.vendor],
+		presets: [
+			'react',
+			'es2015'
+		]
 	}))
 	.pipe(gulp.dest(output));
 
@@ -61,7 +65,12 @@ gulp.task('js:bundle', function() {
 		out: 'main.js',
 		optimize: 'none',
 		baseUrl: CONFIG.paths.js.temp,
-        mainConfigFile: CONFIG.paths.js.temp + 'main.js'
+        mainConfigFile: CONFIG.paths.js.temp + 'main.js',
+
+		// switch react to 'production' mode
+		paths: {
+			'react': 'vendor/react.min'
+		}
     };
 
 	// stream I/O
