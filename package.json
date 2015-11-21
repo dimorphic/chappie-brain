@@ -7,8 +7,8 @@
   "license": "GNU GPL V3",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node_modules/.bin/gulp",
-    "build": "node_modules/.bin/gulp build",
+    "start": "NODE_ENV=development node_modules/.bin/gulp",
+    "build": "NODE_ENV=production node_modules/.bin/gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,6 +19,8 @@
     "javascript"
   ],
   "devDependencies": {
+    "babel-preset-es2015": "^6.1.2",
+    "babel-preset-react": "^6.1.2",
     "browser-sync": "^2.7.6",
     "clear": "0.0.1",
     "connect-history-api-fallback": "^1.1.0",
@@ -27,7 +29,7 @@
     "eslint-plugin-react": "^2.5.2",
     "gulp": "*",
     "gulp-autoprefixer": "*",
-    "gulp-babel": "^5.1.0",
+    "gulp-babel": "^6.1.0",
     "gulp-eslint": "^0.13.2",
     "gulp-load-plugins": "*",
     "gulp-minify-css": "*",
