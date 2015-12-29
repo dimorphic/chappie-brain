@@ -9,7 +9,7 @@ const CONFIG = Object.assign({}, require('./webpack.base'));
 
 // web / dev server settings
 const HOST = 'localhost';
-const PORT = 9090;
+const PORT = 8080;
 
 //
 //	MULTIPLE ENTRY POINTS
