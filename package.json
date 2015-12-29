@@ -7,9 +7,9 @@
   "license": "GNU GPL V3",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node_modules/.bin/gulp",
-    "build": "node_modules/.bin/gulp build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "NODE_ENV=development webpack-dev-server --config webpack.dev.js",
+    "build": "NODE_ENV=production webpack --config webpack.build.js --progress --colors",
+    "lint": "eslint src --ext .js --ext .jsx"
   },
   "keywords": [
     "katalyst",
@@ -19,30 +19,26 @@
     "javascript"
   ],
   "devDependencies": {
-    "browser-sync": "^2.7.6",
-    "clear": "0.0.1",
-    "connect-history-api-fallback": "^1.1.0",
-    "del": "*",
-    "eslint": "^0.23.0",
-    "eslint-plugin-react": "^2.5.2",
-    "gulp": "*",
-    "gulp-autoprefixer": "*",
-    "gulp-babel": "^5.1.0",
-    "gulp-eslint": "^0.13.2",
-    "gulp-load-plugins": "*",
-    "gulp-minify-css": "*",
-    "gulp-notify": "*",
-    "gulp-rename": "*",
-    "gulp-requirejs": "^0.1.3",
-    "gulp-sass": "*",
-    "gulp-size": "^1.2.1",
-    "gulp-uglify": "^1.2.0",
-    "gulp-util": "*",
-    "lodash": "^3.9.3",
-    "q": "^1.4.1",
-    "require-dir": "*",
-    "run-sequence": "*",
-    "tracer": "^0.7.4"
+    "autoprefixer-loader": "^3.1.0",
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-transform-object-assign": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.0.0",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-react": "^3.11.3",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.5",
+    "image-webpack-loader": "^1.6.2",
+    "node-sass": "^3.4.2",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {}
 }
