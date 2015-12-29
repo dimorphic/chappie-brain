@@ -1,118 +1,15 @@
 {
-	// Rules are: 0 (off), 1 (warning), or 2 (error)
-	// http://eslint.org/docs/configuring/
-	"env": {
-		"browser": true,
-		"es6": true,
-		"node": false,
-		"amd": true
-	},
+    "parser": "babel-eslint",
+    "root": true,
+    "extends": "airbnb",
 
-	"globals": {
-		// AMD
-		"module":     true,
-		"require":    true,
-		"requirejs":  true,
-		"define":     true
-	},
+    "rules": {
+        "strict": 0,
 
-	"ecmaFeatures": {
-		"jsx": true
-	},
+        "indent": [2, 4, { "SwitchCase": 1 }],
 
-	"plugins": [
-		"react"
-	],
-
-	"rules": {
-		"indent": [2, "tab"],
-
-		"guard-for-in": 1,
-		"no-caller": 2,
-		"no-comma-dangle": 1,
-		"no-cond-assign": 2,
-		"no-extra-strict": 0,
-		"no-console": 0,
-		"no-constant-condition": 2,
-		"no-debugger": 2,
-		"no-dupe-keys": 2,
-		"no-else-return": 1,
-		"consistent-return": 1,
-		"no-empty": 2,
-		"no-empty-class": 2,
-		"no-ex-assign": 2,
-		"no-extra-boolean-cast": 1,
-		"no-extra-semi": 1,
-		"no-func-assign": 2,
-		"no-invalid-regexp": 2,
-		"no-iterator": 2,
-		"no-loop-func": 2,
-		"no-new-wrappers": 1,
-		"no-redeclare": 2,
-		"no-sequences": 2,
-		"no-sparse-arrays": 2,
-		"no-unreachable": 2,
-		"no-unused-expressions": 1,
-		"no-unused-vars": [1, {
-			"vars": "all",
-			"args": "none"
-		}],
-		"no-use-before-define": [2, "nofunc"],
-		"no-underscore-dangle": 0,
-		"radix": 1,
-		"strict": 2,
-
-		// Style / Formatting
-		"camelcase": 1,
-		"eol-last": 1,
-		"new-cap": 1,
-		"quotes": [2, "single"],
-		"dot-notation": 2,
-
-		"comma-spacing": [2, {"before": false, "after": true}],
-		"key-spacing": [2, {"beforeColon": false, "afterColon": true }],
-		"no-space-before-semi": 2,
-		"no-spaced-func": 2,
-		"no-trailing-spaces": 2,
-		"no-underscore-dangle": 0,
-		"space-return-throw-case": 2,
-
-		// React support
-		"react/display-name": 0,
-		"react/jsx-boolean-value": 2,
-		"react/jsx-no-undef": 2,
-		"react/jsx-quotes": [2, "double"],
-		"react/jsx-sort-prop-types": 0,
-		"react/jsx-sort-props": 0,
-		"react/jsx-uses-react": 2,
-		"react/jsx-uses-vars": 2,
-		"react/no-did-mount-set-state": 2,
-		"react/no-did-update-set-state": 2,
-		"react/no-multi-comp": 2,
-		"react/no-unknown-property": 2,
-		"react/prop-types": 2,
-		"react/react-in-jsx-scope": 2,
-		"react/self-closing-comp": 2,
-		"react/wrap-multilines": 2,
-		"react/sort-comp": [2, {
-			"order": [
-				"displayName",
-				"mixins",
-				"statics",
-				"propTypes",
-				"getDefaultProps",
-				"getInitialState",
-				"componentWillMount",
-				"componentDidMount",
-				"componentWillReceiveProps",
-				"shouldComponentUpdate",
-				"componentWillUpdate",
-				"componentWillUnmount",
-				"/^on.+$/",
-				"/^get.+$/",
-				"/^render.+$/",
-				"render"
-			]
-		}]
-	}
+        "no-console": 0,
+        "comma-dangle": [2, "never"],
+        "no-unused-vars": [1, {"vars": "local", "args": "none"}],
+    }
 }
