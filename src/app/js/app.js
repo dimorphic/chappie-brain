@@ -7,7 +7,7 @@ const BENCHMARK = true;
 
 // export default () => {
 $(() => {
-    console.log('DOM ready bro');
     const BRAIN = new Brain('#app', BENCHMARK);
+    BRAIN.boot();
 });
 // };

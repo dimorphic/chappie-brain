@@ -40,7 +40,7 @@ class Brain {
         };
 
         // init
-        this.boot(element);
+        // this.boot(element);
     }
 
     //
@@ -93,7 +93,7 @@ class Brain {
     //  Brain debug / benchmark stats meters
     //
     createStatsMeters() {
-        console.log('[BRAIN] Creating meters!');
+        console.log('[Brain] Creating stats meters!');
 
         const meters = {};
         meters.fps = stats('fps', { top: 0, left: 0 }); // wtf is dis ?

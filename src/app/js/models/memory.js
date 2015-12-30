@@ -41,8 +41,6 @@ class Memory {
     //  kickstart memory conciousness
     //
     boot(options) {
-        console.log('boot memory');
-
         // create memory
         this.build();
 
@@ -55,8 +53,6 @@ class Memory {
     //  build memory cells
     //
     build() {
-        console.log('build memory');
-
         // get/update max grid sizes
         this.updateGridSize();
 
