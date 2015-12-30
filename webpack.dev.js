@@ -8,7 +8,7 @@ const PATHS = require('./config').paths;
 const CONFIG = Object.assign({}, require('./webpack.base'));
 
 // web / dev server settings
-const HOST = 'localhost';
+const HOST = '0.0.0.0'; // bind on all interfaces (use 'localhost' for privacy)
 const PORT = 8080;
 
 //
