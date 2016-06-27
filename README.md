@@ -39,6 +39,7 @@ This test is focused on a specific case, update items that is, and it's scores s
 
 ### Todo:
 
+- [ ] Fix funky Angular 1 bug rendering only strings (hit refresh!)
 - [ ] test more libs/frameworks?
 - [ ] TBA
 
