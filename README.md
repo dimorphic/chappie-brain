@@ -5,7 +5,7 @@
 
 1. [React demo](https://dimorphic.github.io/chappie-brain/react/) (branch brain-react)
 2. Angular
-  - [Angular 1 demo](https://dimorphic.github.io/chappie-brain/angular/) (branch brain-angular)
+  - [Angular 1 demo](https://dimorphic.github.io/chappie-brain/angular-1/) (branch brain-angular)
   - Angular 2 demo - coming soon
 3. Canvas (brain-canvas)
   - [ES5 demo](https://dimorphic.github.io/chappie-brain/canvas-es5/) (branch brain-canvas)
