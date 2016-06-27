@@ -31,6 +31,7 @@ This test is focused on a specific case, update items that is, and it's scores s
 3. Install dev & app depedencies:
 
   `$ npm install`
+  
   `bower install` (not on ES6 branches, going npm all the way!)
   
 4. Start it up:
