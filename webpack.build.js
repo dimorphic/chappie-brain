@@ -19,12 +19,12 @@ const BUNDLES = {
 //	PRODUCTION PLUGINS
 //
 CONFIG.plugins.push(
-    // JS magic
-	new webpack.optimize.CommonsChunkPlugin({
-		name: 'vendor',
-		filename: '[name].js',
-		minChunks: Infinity
-	}),
+    // build common vendor bundle
+	// new webpack.optimize.CommonsChunkPlugin({
+	// 	name: 'vendor',
+	// 	filename: '[name].js',
+	// 	minChunks: Infinity
+	// }),
 	new webpack.optimize.OccurenceOrderPlugin(),
 	new webpack.optimize.UglifyJsPlugin({
 		compress: {

@@ -83,7 +83,8 @@ const LOADERS = [
 		loader: 'babel',
 		query: {
             cacheDirectory: true,
-			presets: ['es2015', 'stage-2']
+			presets: ['es2015', 'stage-2'],
+            plugins: ['transform-object-assign']
 		},
 		include: `${PATHS.app}/js`,
 		exclude: [
