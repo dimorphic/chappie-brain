@@ -23,11 +23,11 @@ This test is focused on a specific case, update items that is, and it's scores s
 
 #### Sample size: 1120 cells (half screen)
 
-![stats-half-screen](https://chartspree.io/line.svg?Vue2=16,28,30&React-dev=6,10,12&React-prod=37,47,50&Angular1=12,29,32&Angular2-dev=33,58,61&_interpolate=cubic&_fill=false&_height=300px&_style=dark)
+![stats-half-screen](https://chartspree.io/line.svg?Vue2=16,28,30&React-dev=6,10,12&React-prod=37,47,50&Angular1=12,29,32&Angular2-dev=33,58,61&Angular2-prod=41,60,61&_interpolate=cubic&_fill=false&_height=300px&_style=dark)
 
 #### Sample size: 2240 cells (full screen)
 
-![stats-full-screen](https://chartspree.io/line.svg?Vue2=6,12,14&React-dev=2,5,6&React-prod=17,23,25&Angular1=3,14,15&Angular2-dev=12,28,31&_interpolate=cubic&_fill=false&_height=300px&_style=dark)
+![stats-full-screen](https://chartspree.io/line.svg?Vue2=6,12,14&React-dev=2,5,6&React-prod=17,23,25&Angular1=3,14,15&Angular2-dev=12,28,31&Angular2-prod=38,43,45&_interpolate=cubic&_fill=false&_height=300px&_style=dark)
 
 ### Getting started
 
