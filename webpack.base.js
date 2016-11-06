@@ -129,6 +129,11 @@ const CONFIG = {
 
 	resolve: {
 		root: [ PATHS.app ],
+
+    // alias: {
+    //   'vue$': 'vue/dist/vue.js'
+    // }
+
 		extensions: [
 			'',
 			'.js',

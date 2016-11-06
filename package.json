@@ -45,6 +45,7 @@
   "dependencies": {
     "jquery": "^2.1.4",
     "noisejs": "^2.1.0",
-    "stats.js": "git+https://github.com/mrdoob/stats.js.git"
+    "stats.js": "git+https://github.com/mrdoob/stats.js.git",
+    "vue": "^2.0.3"
   }
 }

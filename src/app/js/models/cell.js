@@ -14,31 +14,31 @@
 // }
 
 export default class Cell {
-    constructor(options = {}) {
-        // spread options
-        const { id, x, y, size, fill, noise } = options;
+  constructor(options = {}) {
+    // spread options
+    const { id, x, y, size, fill, noise } = options;
 
-        // cell uid
-        this.id = `cell_${id}`;
+    // cell uid
+    this.id = `cell_${id}`;
 
-        // cell body 'message'
-        this.body = this.getRandomChar();
+    // cell body 'message'
+    this.body = this.getRandomChar();
 
-        // cell position & size
-        this.size = size;
-        this.x = x * this.size;
-        this.y = y * this.size;
+    // cell position & size
+    this.size = size;
+    this.x = x * this.size;
+    this.y = y * this.size;
 
-        // cell styles
-        this.fill = fill || null;
-        this.noise = noise || null;
-    }
+    // cell styles
+    this.fill = fill || null;
+    this.noise = noise || null;
+  }
 
-    getRandomChar() {
-        // @ and $ are ugly with Exo. need better font?
-        const chars = '!#%&^()_=+,.:<>?';
-        const randomChar = chars[~~(Math.random() * chars.length)];
+  getRandomChar() {
+    // @ and $ are ugly with Exo. need better font?
+    const chars = '!#%&^()_=+,.:<>?';
+    const randomChar = chars[~~(Math.random() * chars.length)];
 
-        return randomChar;
-    }
+    return randomChar;
+  }
 }
