@@ -12,7 +12,7 @@
     "build": "rimraf build && npm run build:prod",
     "clean": "npm cache clean && rimraf node_modules typings build",
     "start:dev": "NODE_ENV=development webpack-dev-server --config webpack/webpack.dev.js --progress --profile --colors --watch --hot --display-error-details --display-cached",
-    "build:prod": "NODE_ENV=production webpack --config webpack/webpack.prod.js --progress --profile --colors --display-error-details --display-cached --bail",
+    "build:prod": "NODE_ENV=production webpack --config webpack/webpack.prod.js --progress --profile --colors --display-error-details --display-cached",
     "icons": "svg-sprite --symbol --symbol-sprite='spritesheet.html' --symbol-dest='svg' --svg-xmldecl=false --svg-doctype=false  --dest='./src/assets/' ./src/assets/svg/*.svg",
     "typings-install": "typings install",
     "test": "echo \"Error: no test specified\" && exit 1"
