@@ -1,15 +1,16 @@
 # Chappie Brain
-[Chappie](http://www.imdb.com/title/tt1823672) inspired Brain / Consciousness animation recreated in HTML, CSS & JavaScript, available in 3 flavors: React, Angular and Canvas.
+[Chappie](http://www.imdb.com/title/tt1823672) inspired Brain / Consciousness animation recreated in HTML, CSS & JavaScript, available in multiple flavors: React, Angular 1, Angular 2 (RC1), Vue.js 2 and Canvas.
 
 #### Available branches (so far!):
 
 1. [React demo](https://dimorphic.github.io/chappie-brain/react/) (branch brain-react)
 2. Angular
   - [Angular 1 demo](https://dimorphic.github.io/chappie-brain/angular-1/) (branch brain-angular)
-  - Angular 2 demo - coming soon
+  - [Angular 2 (RC1) demo](https://dimorphic.github.io/chappie-brain/angular-2/) (branch brain-angular-2)
 3. Canvas (brain-canvas)
   - [ES5 demo](https://dimorphic.github.io/chappie-brain/canvas-es5/) (branch brain-canvas)
   - [ES6 demo](http://dimorphic.github.io/chappie-brain/canvas-es6/) (branch brain-canvas-es6)
+4. [Vue.js 2 demo](https://dimorphic.github.io/chappie-brain/vue/) (branch brain-vue)
 
 #### Preview
 
@@ -32,7 +33,7 @@ This test is focused on a specific case, update items that is, and it's scores s
 
   `$ npm install`
   
-  `bower install` (not on ES6 branches, going npm all the way!)
+  `$ bower install` (not on ES6 branches, going npm all the way!)
   
 4. Start it up:
 
