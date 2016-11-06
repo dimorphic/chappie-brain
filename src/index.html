@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="description" content="<%= webpackConfig.metadata.description %>">
+
+  <title>Chappie's Brain (Angular 2)</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Exo:400,500,600' rel='stylesheet' type='text/css'>
+
+  <% if (webpackConfig.metadata.ENV === 'production') { %>
+    <link rel="stylesheet" href="/assets/css/style.css">
+  <% } %>
+</head>
+
+<body>
+  <app>
+    Crunching cereals...
+  </app>
+</body>
+</html>

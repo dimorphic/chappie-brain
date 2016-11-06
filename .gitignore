@@ -1,0 +1,28 @@
+# Don't ignore these
+!.gitkeep
+
+################
+# System files #
+################
+*.log
+.npmrc
+.idea/
+*.sublime-project
+*.sublime-workspace
+.tmp/
+.sass-cache/
+node_modules/
+*.sublime-project
+*.sublime-workspace
+
+###################
+# Generated files #
+###################
+build/
+dist/
+src/assets/svg/*.html
+
+#################
+# Project files #
+#################
+typings/

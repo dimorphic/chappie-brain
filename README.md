@@ -1,0 +1,24 @@
+# Chappie Brain Angular 2 'flavor'
+Chappie Brain / Consciousness animation recreated in JavaScript, available in multiple flavors: React, Angular 1, Angular 2, Vue.js and Canvas.
+
+#### Preview
+
+![brain-preview-demo](http://i.imgur.com/U0zdZkh.jpg)
+
+### Getting started
+
+1. Clone the repo of desired flavor (brain-react, brain-angular or brain-canvas):
+
+  `$ git clone -b brain-canvas https://github.com/dimorphic/chappie-brain`
+
+2. Get in there
+
+  `$ cd chappie-brain`
+
+3. Install dev & app depedencies:
+
+  `$ npm install`
+
+4. Start it up:
+
+  `$ npm start`

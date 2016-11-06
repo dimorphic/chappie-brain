@@ -1,0 +1,15 @@
+@import '~scss/utils/strip-unit';
+
+@mixin font-size($size: 1px) {
+  $unitlessSize: strip-unit($size);
+
+  font-size: $unitlessSize + px;
+  font-size: ($unitlessSize / 10) + rem;
+}
+
+@mixin line-height($size: 1) {
+  $unitlessSize: strip-unit($size);
+
+  line-height: $unitlessSize + px;
+  line-height: ($unitlessSize / 10) + rem;
+}

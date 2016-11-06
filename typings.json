@@ -1,0 +1,12 @@
+{
+  "globalDevDependencies": {},
+  "globalDependencies": {
+    "core-js": "registry:dt/core-js#0.0.0+20160317120654",
+    "node": "registry:dt/node#4.0.0+20160509154515",
+    "noisejs": "registry:dt/noisejs#0.0.0+20160316155526",
+    "source-map": "registry:dt/source-map#0.0.0+20160317120654",
+    "stats": "registry:dt/stats#0.16.0+20160505160752",
+    "uglify-js": "registry:dt/uglify-js#2.6.1+20160316155526",
+    "webpack": "registry:dt/webpack#1.12.9+20160321060707"
+  }
+}

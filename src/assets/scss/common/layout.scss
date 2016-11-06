@@ -1,0 +1,27 @@
+//
+//  App common layout
+//
+$base-color: #010F18;
+
+body {
+  background: $base-color;
+  font-family: 'Exo', sans-serif;
+  overflow: hidden;
+}
+
+// debugger
+.debug {
+    z-index: 999;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: 10px;
+
+    background: rgba(255, 0, 0, 0.6);
+    color: #fff;
+}
+
+app {
+  background: #f00;
+}

@@ -1,0 +1,15 @@
+<div class="debug">
+	cells: {{memory.cells.length}}
+	<br />
+	draw #{{getDrawCount()}}
+</div>
+
+<div class="Brain" (window:resize)="onResize($event)">
+  <brain-cell
+    *ngFor="let cell of memory.cells; let idx = index"
+
+    [body]="cell.body"
+    [size]="cell.size"
+    [fill]="cell.fill"
+  ></brain-cell>
+</div>
