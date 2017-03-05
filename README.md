@@ -1,6 +1,9 @@
 # Chappie Brain
 [Chappie](http://www.imdb.com/title/tt1823672) inspired Brain / Consciousness animation recreated in HTML, CSS & JavaScript, available in multiple flavors: React, Angular 1, Angular 2 (RC1), Vue.js 2 and Canvas.
 
+This was used as reference for my 'insane' test case presentation @ [Angular-vs-React](http://bit.ly/angular-vs-react).
+This test is focused on a specific case, update items that is, and it's scores should be taken as is, and not as an overall score of one framework vs another. There are other libs out there that handle animations better. Do not do this at home! :)
+
 #### Available branches (so far!):
 
 1. [React demo](https://dimorphic.github.io/chappie-brain/react/) (branch brain-react)
@@ -15,9 +18,6 @@
 #### Preview
 
 ![brain-preview-demo](http://i.imgur.com/U0zdZkh.jpg)
-
-This was used as reference for my 'insane' test case presentation @ [Angular-vs-React](http://bit.ly/angular-vs-react).
-This test is focused on a specific case, update items that is, and it's scores should be taken as is, and not as an overall score of one framework vs another. There are other libs out there that handle animations better. Do not do this at home! :)
 
 ### Some stats:
 
