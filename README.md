@@ -6,14 +6,14 @@ This test is focused on a specific case, update items that is, and it's scores s
 
 #### Available branches (so far!):
 
-1. [React demo](https://dimorphic.github.io/chappie-brain/react/) (branch brain-react)
+1. [React demo](https://dimorphic.github.io/chappie-brain/react/) (branch brain-react) `~0.13.3`
 2. Angular
-  - [Angular 1 demo](https://dimorphic.github.io/chappie-brain/angular-1/) (branch brain-angular)
-  - [Angular 2 (RC1) demo](https://dimorphic.github.io/chappie-brain/angular-2/) (branch brain-angular-2)
+  - [Angular 1 demo](https://dimorphic.github.io/chappie-brain/angular-1/) (branch brain-angular) `1.4.7`
+  - [Angular 2 (RC1) demo](https://dimorphic.github.io/chappie-brain/angular-2/) (branch brain-angular-2) `2.0.0-rc.1`
 3. Canvas
   - [ES5 demo](https://dimorphic.github.io/chappie-brain/canvas-es5/) (branch brain-canvas)
   - [ES6 demo](http://dimorphic.github.io/chappie-brain/canvas-es6/) (branch brain-canvas-es6)
-4. [Vue.js 2 demo](https://dimorphic.github.io/chappie-brain/vue/) (branch brain-vue)
+4. [Vue.js 2 demo](https://dimorphic.github.io/chappie-brain/vue/) (branch brain-vue) `^2.0.3`
 
 #### Preview
 
@@ -21,13 +21,15 @@ This test is focused on a specific case, update items that is, and it's scores s
 
 ### Some stats:
 
-#### Sample size: 1120 cells (half screen)
+#### Sample size: 1120 cells (half retina screen @ 1440 x 1800 px)
 
-![stats-half-screen](https://chartspree.io/line.svg?Vue2=16,28,30&React-dev=6,10,12&React-prod=37,47,54&Angular1=12,29,32&Angular2-dev=33,58,61&Angular2-prod=41,60,61&_interpolate=cubic&_fill=false&_height=300px&_style=dark)
+![stats-half-screen-1120](https://user-images.githubusercontent.com/3442665/143621386-5b934609-9754-4a5c-81a5-b6804c96117e.png)
 
-#### Sample size: 2240 cells (full screen)
 
-![stats-full-screen](https://chartspree.io/line.svg?Vue2=6,12,14&React-dev=2,5,6&React-prod=17,27,30&Angular1=3,14,15&Angular2-dev=12,28,31&Angular2-prod=38,43,45&_interpolate=cubic&_fill=false&_height=300px&_style=dark)
+#### Sample size: 2240 cells (full retina screen @ 2880 x 1800 px)
+
+![stats-full-screen-2240](https://user-images.githubusercontent.com/3442665/143621429-d002ec1a-029e-4621-bca7-b068c8b34dbe.png)
+
 
 ### Getting started
 
